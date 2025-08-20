@@ -1,4 +1,4 @@
-const darkToggle = document.querySelector('.dark-toggle');
+iconst darkToggle = document.querySelector('.dark-toggle');
 const body = document.body;
 const getStartedBtn = document.getElementById('getStartedBtn');
 const loginModal = document.getElementById('loginModal');
@@ -66,7 +66,7 @@ signupForm.addEventListener('submit', e => {
   }
 });
 
-// CONTACT FORM HANDLER (Demo: shows success message)
+// CONTACT FORM HANDLER 
 contactForm.addEventListener('submit', e => {
   e.preventDefault();
   const name = contactForm.contactName.value.trim();
