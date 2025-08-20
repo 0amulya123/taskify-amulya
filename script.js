@@ -53,7 +53,7 @@ loginForm.addEventListener('submit', e => {
   const password = loginForm.password.value;
   if (email && password) {
     alert("Login successful! Redirecting to your dashboard...");
-    window.location.href = "dashboard.html"; // point to your to-do app page
+    window.location.href = "dashboard.html"; 
   }
 });
 signupForm.addEventListener('submit', e => {
